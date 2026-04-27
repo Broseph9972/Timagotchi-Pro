@@ -1,4 +1,6 @@
 (fp_lib_table
 	(version 7)
 	(lib (name "New_XIAO_Series_Footprints") (type "KiCad") (uri "${KIPRJMOD}/New_XIAO_Series_Footprints") (options "") (descr ""))
+	(lib (name "Switch Footprints") (type "KiCad") (uri "${KIPRJMOD}/Switch Footprints") (options "") (descr ""))
+	(lib (name "Speaker Footprints") (type "KiCad") (uri "${KIPRJMOD}/Speaker Footprints") (options "") (descr ""))
 )
