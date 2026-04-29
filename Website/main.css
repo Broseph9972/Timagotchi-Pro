@@ -1,0 +1,63 @@
+:root {
+    --font-mono: 'JetBrains Mono', monospace;
+    --bg-color: #171A21;
+    --btn-color: #75ABBC;
+    --alt-color: #F1DEDE;
+    --text-color: #FFFFFF;
+}
+
+html, body {
+    font-size: max(1vw, 12px);
+    margin: 0;
+    min-height: 100%;
+    font-family: var(--font-mono);
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+#landing-page {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#title-div {
+    text-align: center;
+    font-size: max(2vw, 18px);
+}
+
+#title-div h1 {
+    margin-bottom: 0;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+#banner {
+    width: 100%;
+}
+
+#scroll-down-icon-div {
+    text-align: center;
+    z-index: 10;
+    pointer-events: none;
+    flex: 1;
+}
+
+#scroll-down-icon-div span {
+    position: relative;
+    top: 40%;
+    font-size: 6rem;
+    display: inline-block;
+    animation: float 2s ease-in-out infinite;
+}
+
+@keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+}
