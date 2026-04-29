@@ -2691,6 +2691,22 @@
 		(uuid "ab651c00-494f-484e-9935-0e9244f3f10b")
 	)
 	(no_connect
+		(at 90.17 80.01)
+		(uuid "02bdb320-f0f6-49dd-a5bb-8ce9ddd24e20")
+	)
+	(no_connect
+		(at 90.17 90.17)
+		(uuid "0ae3264f-6bef-48a8-b3c6-2a17183fd5db")
+	)
+	(no_connect
+		(at 90.17 72.39)
+		(uuid "0d5bba3c-3dd3-46c3-a8ea-f18e9f75834e")
+	)
+	(no_connect
+		(at 90.17 77.47)
+		(uuid "32896480-80be-4d2b-b1c3-0b7eba3e68f7")
+	)
+	(no_connect
 		(at 215.9 54.61)
 		(uuid "3e95cd79-973b-41d0-8294-e96b8dc3bd3a")
 	)
@@ -2699,8 +2715,24 @@
 		(uuid "578de08a-298f-4def-9ef0-92f24b0c3f6c")
 	)
 	(no_connect
+		(at 90.17 85.09)
+		(uuid "73ed39dd-7001-4de3-ac62-975bb2160f79")
+	)
+	(no_connect
+		(at 90.17 82.55)
+		(uuid "903e0648-dd3c-4c87-b214-e2a90a69cdcd")
+	)
+	(no_connect
 		(at 190.5 67.31)
 		(uuid "9abc5aba-4e16-404e-9e24-11be46574290")
+	)
+	(no_connect
+		(at 90.17 87.63)
+		(uuid "c0b96cfa-68c3-4899-ab51-a3b6f24370ef")
+	)
+	(no_connect
+		(at 90.17 74.93)
+		(uuid "ec05c279-cea7-4622-8785-d1d0a70e0baa")
 	)
 	(wire
 		(pts
@@ -3497,7 +3529,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_Omron_B3FS-100xP"
 			(at 151.13 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -3577,7 +3609,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_Omron_B3FS-100xP"
 			(at 115.57 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -3892,7 +3924,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_Omron_B3FS-100xP"
 			(at 151.13 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -4660,7 +4692,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_Omron_B3FS-100xP"
 			(at 133.35 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -5213,7 +5245,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_Omron_B3FS-100xP"
 			(at 115.57 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -5498,7 +5530,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_Omron_B3FS-100xP"
 			(at 133.35 116.84 0)
 			(hide yes)
 			(show_name no)
