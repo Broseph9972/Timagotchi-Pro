@@ -3,4 +3,6 @@
 	(lib (name "New_XIAO_Series_Footprints") (type "KiCad") (uri "${KIPRJMOD}/New_XIAO_Series_Footprints") (options "") (descr ""))
 	(lib (name "Switch Footprints") (type "KiCad") (uri "${KIPRJMOD}/Switch Footprints") (options "") (descr ""))
 	(lib (name "Speaker Footprints") (type "KiCad") (uri "${KIPRJMOD}/Speaker Footprints") (options "") (descr ""))
+	(lib (name "Library") (type "KiCad") (uri "${KIPRJMOD}/Custom Footprints/Library.pretty") (options "") (descr ""))
+	(lib (name "Joystick footprint") (type "KiCad") (uri "${KIPRJMOD}/Joystick footprint") (options "") (descr ""))
 )

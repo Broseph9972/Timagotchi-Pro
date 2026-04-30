@@ -3,4 +3,5 @@
 	(lib (name "Seeed_Studio_XIAO_Series") (type "KiCad") (uri "${KIPRJMOD}/New_XIAO_Series_Footprints/Seeed_Studio_XIAO_Series.kicad_sym") (options "") (descr ""))
 	(lib (name "B3F-4055") (type "KiCad") (uri "${KIPRJMOD}/Switch Footprints/B3F-4055.kicad_sym") (options "") (descr ""))
 	(lib (name "MAX98357AETE_T") (type "KiCad") (uri "${KIPRJMOD}/Speaker Footprints/MAX98357AETE_T.kicad_sym") (options "") (descr ""))
+	(lib (name "COM-09032") (type "KiCad") (uri "${KIPRJMOD}/Joystick footprint/COM-09032.kicad_sym") (options "") (descr ""))
 )
