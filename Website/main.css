@@ -1,9 +1,24 @@
 :root {
     --font-mono: 'JetBrains Mono', monospace;
-    --bg-color: #171A21;
-    --btn-color: #75ABBC;
-    --alt-color: #F1DEDE;
-    --text-color: #FFFFFF;
+    # I would never steal a color palette from GitHub, that would be unethical
+    --github-green: #0FBF3E;
+    --gray-1: #F2F5F3;
+    --gray-2: #E4EBE6;
+    --gray-3: #B6BFB8;
+    --gray-4: #909692;
+    --gray-5: #232925;
+    --gray-6: #101411;
+    --green-1: #BFFFD1;
+    --green-2: #8CF2A6;
+    --green-3: #5FED83;
+    --green-4: #0FBF3E;
+    --green-5: #08872B;
+    --green-6: #0A241B;
+
+    --bg-color: var(--gray-1);
+    --btn-color: var(--github-green);
+    --alt-color: var(--gray-2);
+    --text-color: var(--gray-6);
 }
 
 html, body {
@@ -22,10 +37,14 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0 max(6vw, 24px);
+    box-sizing: border-box;
 }
 
 #title-div {
-    text-align: center;
+    text-align: left;
     font-size: max(2vw, 18px);
 }
 
@@ -34,12 +53,12 @@ body {
 }
 
 .subtitle {
-    text-align: center;
+    text-align: left;
     font-size: 1.25rem;
 }
 
 #banner {
-    width: 100%;
+    width: min(100%, 820px);
 }
 
 #scroll-down-icon-div {
