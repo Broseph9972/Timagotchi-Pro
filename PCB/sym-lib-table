@@ -4,4 +4,5 @@
 	(lib (name "B3F-4055") (type "KiCad") (uri "${KIPRJMOD}/Switch Footprints/B3F-4055.kicad_sym") (options "") (descr ""))
 	(lib (name "MAX98357AETE_T") (type "KiCad") (uri "${KIPRJMOD}/Speaker Footprints/MAX98357AETE_T.kicad_sym") (options "") (descr ""))
 	(lib (name "COM-09032") (type "KiCad") (uri "${KIPRJMOD}/Joystick footprint/COM-09032.kicad_sym") (options "") (descr ""))
+	(lib (name "2026-05-01_01-39-27") (type "KiCad") (uri "${KIPRJMOD}/FFC/2026-05-01_01-39-27.kicad_sym") (options "") (descr ""))
 )

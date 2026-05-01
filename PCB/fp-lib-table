@@ -5,4 +5,6 @@
 	(lib (name "Speaker Footprints") (type "KiCad") (uri "${KIPRJMOD}/Speaker Footprints") (options "") (descr ""))
 	(lib (name "Library") (type "KiCad") (uri "${KIPRJMOD}/Custom Footprints/Library.pretty") (options "") (descr ""))
 	(lib (name "Joystick footprint") (type "KiCad") (uri "${KIPRJMOD}/Joystick footprint") (options "") (descr ""))
+	(lib (name "Connector_FFC-FPC") (type "KiCad") (uri "${KIPRJMOD}/FFC Connector libraries/Connector_FFC-FPC.pretty") (options "") (descr ""))
+	(lib (name "footprints") (type "KiCad") (uri "${KIPRJMOD}/FFC/footprints.pretty") (options "") (descr ""))
 )
