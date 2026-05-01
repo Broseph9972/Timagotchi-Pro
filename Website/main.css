@@ -63,6 +63,8 @@ body {
 #landing-page h1,
 #landing-page p {
     display: inline-block;
+    width: fit-content;
+    max-width: 100%;
     background-color: var(--gray-5);
     border: 1px solid var(--gray-4);
     padding: 0.35em 0.6em;
