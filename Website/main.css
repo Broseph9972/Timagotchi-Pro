@@ -1,6 +1,6 @@
 :root {
     --font-mono: 'JetBrains Mono', monospace;
-    # I would never steal a color palette from GitHub, that would be unethical
+    # i would never steal a color palette from GitHub, that would be unethical
     --github-green: #0FBF3E;
     --gray-1: #F2F5F3;
     --gray-2: #E4EBE6;
@@ -15,10 +15,10 @@
     --green-5: #08872B;
     --green-6: #0A241B;
 
-    --bg-color: var(--gray-1);
+    --bg-color: var(--gray-6);
     --btn-color: var(--github-green);
-    --alt-color: var(--gray-2);
-    --text-color: var(--gray-6);
+    --alt-color: var(--gray-5);
+    --text-color: var(--gray-1);
 }
 
 html, body {
@@ -36,11 +36,19 @@ body {
 #landing-page {
     height: 100vh;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: flex-start;
     align-items: flex-start;
-    padding: 0 max(6vw, 24px);
+    gap: clamp(8px, 2vw, 16px);
+    padding: max(4vh, 24px) max(6vw, 24px) 0;
     box-sizing: border-box;
+}
+
+.landing-text {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    max-width: 520px;
 }
 
 #title-div {
@@ -52,13 +60,38 @@ body {
     margin-bottom: 0;
 }
 
+#landing-page h1,
+#landing-page p {
+    display: inline-block;
+    background-color: var(--gray-5);
+    border: 1px solid var(--gray-4);
+    padding: 0.35em 0.6em;
+    color: var(--gray-1);
+}
+
 .subtitle {
     text-align: left;
     font-size: 1.25rem;
 }
 
 #banner {
-    width: min(100%, 820px);
+    width: clamp(260px, 48vw, 520px);
+    height: clamp(260px, 48vw, 520px);
+    margin-left: auto;
+    object-fit: cover;
+    border: 1px solid var(--gray-4);
+    background-color: var(--gray-5);
+}
+
+@media (max-width: 768px) {
+    #landing-page {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #banner {
+        margin-left: 0;
+    }
 }
 
 #scroll-down-icon-div {
