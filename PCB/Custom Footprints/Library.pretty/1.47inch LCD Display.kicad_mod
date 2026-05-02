@@ -1,0 +1,111 @@
+(footprint "1.47inch LCD Display"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "1.47inch LCD Display"
+		(at 21.5 10.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "47223e38-ef80-4f60-a877-f53afeb61d60")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "1.47inch LCD Display"
+		(at 22 9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "06f2844a-5fab-4745-ada4-dc795e09e2ca")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0afa1fed-b79e-4ce2-979f-8f104a4fddac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9c6b9f62-2648-4ed0-8f9c-a3c3777de2d4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start 0 0)
+		(end 41.69 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fd6fe6d7-0dbf-464c-ab4c-fd1dcd7a9d39")
+	)
+	(fp_line
+		(start 0 22.05)
+		(end 0 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0ae4fd45-cdbc-4383-9ae5-555adc919599")
+	)
+	(fp_line
+		(start 41.69 0)
+		(end 41.69 22.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a54b7cc9-c512-4fda-b35f-73cb55bc1baa")
+	)
+	(fp_line
+		(start 41.69 22.05)
+		(end 0 22.05)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0f399aed-0cb2-4c08-b8af-c864b38e5594")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 20.845 12.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ad0a2196-a229-4560-9ccc-d819fca25232")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(embedded_fonts no)
+)

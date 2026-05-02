@@ -5023,6 +5023,10 @@
 		(uuid "3e95cd79-973b-41d0-8294-e96b8dc3bd3a")
 	)
 	(no_connect
+		(at 90.17 74.93)
+		(uuid "425279b0-ae3d-4c4f-83ed-df0836d0f491")
+	)
+	(no_connect
 		(at 215.9 57.15)
 		(uuid "578de08a-298f-4def-9ef0-92f24b0c3f6c")
 	)
@@ -5031,12 +5035,20 @@
 		(uuid "59143d0b-66a9-46cf-97bb-dd84e827d581")
 	)
 	(no_connect
+		(at 90.17 85.09)
+		(uuid "83a4d0be-038c-49ab-8b99-37dc8226b8bb")
+	)
+	(no_connect
 		(at 157.48 68.58)
 		(uuid "938b71ee-57e7-4da2-b920-b317a19caca8")
 	)
 	(no_connect
 		(at 190.5 67.31)
 		(uuid "9abc5aba-4e16-404e-9e24-11be46574290")
+	)
+	(no_connect
+		(at 90.17 82.55)
+		(uuid "ae92373c-ba6e-4539-abe8-d2db26c4780f")
 	)
 	(no_connect
 		(at 157.48 55.88)
@@ -5144,16 +5156,6 @@
 		)
 		(uuid "03231e96-a332-42e1-8eb4-98b3774fbb69")
 	)
-	(label "SD_CS"
-		(at 29.21 36.83 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "094f580c-6aff-4889-b56b-2b636a9e5a98")
-	)
 	(label "LCD_RST"
 		(at 157.48 48.26 180)
 		(effects
@@ -5184,45 +5186,25 @@
 		)
 		(uuid "16061c91-7754-4b44-a8bc-9ad157cb248c")
 	)
-	(label "SW6"
-		(at 29.21 73.66 180)
+	(label "SCLK"
+		(at 29.21 66.04 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "1b105c23-ef3f-409c-a9b7-362c8e7b187c")
-	)
-	(label "SW1"
-		(at 90.17 60.96 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1e25762b-33e5-4585-ad51-08a3402793b6")
-	)
-	(label "SW6"
-		(at 146.05 121.92 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "22c28f7d-b1c1-4409-bc42-ea071b61b05a")
+		(uuid "192f46d5-2285-4a36-a696-6642e92b7cdf")
 	)
 	(label "LCD_CS"
-		(at 90.17 55.88 0)
+		(at 29.21 68.58 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "2386e08f-d097-4b4f-b856-e7c4d71a7189")
+		(uuid "2283023c-8da1-498e-b88a-5b893fa60f99")
 	)
 	(label "SW1"
 		(at 110.49 107.95 180)
@@ -5274,15 +5256,15 @@
 		)
 		(uuid "2cf40f43-6e48-4da2-a448-348fbce4e54c")
 	)
-	(label "I2S_SD"
-		(at 29.21 60.96 180)
+	(label "I2S_WS"
+		(at 90.17 52.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "2e959b31-b2a5-4159-9903-700f11676c59")
+		(uuid "30fdb22a-b0cc-4861-96dd-a13e03d525f5")
 	)
 	(label "I2S_SCK"
 		(at 190.5 57.15 180)
@@ -5293,6 +5275,16 @@
 			(justify right bottom)
 		)
 		(uuid "35263ce1-2dbb-4a4a-ba3e-713fa9220a5d")
+	)
+	(label "SW2"
+		(at 90.17 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "374ee98b-f295-4370-8e74-14036aa144aa")
 	)
 	(label "VPOS"
 		(at 189.23 100.33 180)
@@ -5324,16 +5316,6 @@
 		)
 		(uuid "56ce37a4-ad81-4e8f-b7de-9fa3b752376e")
 	)
-	(label "SW5"
-		(at 29.21 71.12 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5ebc9218-e412-4e45-be34-833ce56c7cef")
-	)
 	(label "LCD_CS"
 		(at 157.48 50.8 180)
 		(effects
@@ -5344,15 +5326,15 @@
 		)
 		(uuid "5ef356ea-0dda-43e4-9dbb-137b5a425013")
 	)
-	(label "TP_RST"
-		(at 90.17 48.26 0)
+	(label "HPOS"
+		(at 29.21 71.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "6196d45f-93e7-45fe-8d63-a8fbc4c37001")
+		(uuid "608abe3a-4810-4543-9ebf-b8a5a57f2ae7")
 	)
 	(label "SW2"
 		(at 128.27 107.95 180)
@@ -5374,7 +5356,7 @@
 		)
 		(uuid "6f9e12c4-cbe7-4e19-93ca-f6c5313476de")
 	)
-	(label "SW2"
+	(label "I2S_SCK"
 		(at 90.17 63.5 0)
 		(effects
 			(font
@@ -5383,46 +5365,6 @@
 			(justify left bottom)
 		)
 		(uuid "723dcfad-2613-4280-9f2a-0151f280ed63")
-	)
-	(label "VPOS"
-		(at 90.17 85.09 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "79ad7fd1-7174-4c18-824c-faf844e57fef")
-	)
-	(label "I2S_SCK"
-		(at 29.21 63.5 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7f510f68-1a51-4d2c-915b-910101633ad9")
-	)
-	(label "SW4"
-		(at 110.49 121.92 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8749b29a-faa1-4ddf-be16-5352362f30fc")
-	)
-	(label "I2S_WS"
-		(at 29.21 66.04 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8f78be68-0087-4459-bc61-9db2fc5ed905")
 	)
 	(label "SCLK"
 		(at 157.48 38.1 180)
@@ -5444,6 +5386,16 @@
 		)
 		(uuid "9169fc6b-34f0-4e4c-9823-03a511096ef7")
 	)
+	(label "SEL"
+		(at 90.17 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9837f8b7-36fe-4dee-877c-1f9b695f760c")
+	)
 	(label "TP_INT"
 		(at 157.48 66.04 180)
 		(effects
@@ -5453,16 +5405,6 @@
 			(justify right bottom)
 		)
 		(uuid "9c271c2b-ee54-4205-8d7d-760b0e4953a2")
-	)
-	(label "SCLK"
-		(at 90.17 52.07 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9e9ccd40-7d5a-4be6-bbf8-207b9df46585")
 	)
 	(label "TP_SDA"
 		(at 29.21 48.26 180)
@@ -5474,15 +5416,35 @@
 		)
 		(uuid "a2f44b49-a326-4c75-84d8-836ed48010f8")
 	)
-	(label "HPOS"
-		(at 90.17 82.55 0)
+	(label "MOSI"
+		(at 29.21 36.83 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "aaed0811-5287-4d8a-8229-30caea71ef29")
+	)
+	(label "SW1"
+		(at 90.17 55.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "a8f9fcbb-69a7-4e34-893b-d8c287bd5c28")
+		(uuid "ab47c1e8-2bf7-47b2-89a5-fe8a6d6fb0de")
+	)
+	(label "VPOS"
+		(at 29.21 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b0f42228-6d62-4848-aeed-3f905e1f58d0")
 	)
 	(label "LCD_RST"
 		(at 29.21 44.45 180)
@@ -5505,36 +5467,6 @@
 		(uuid "b7ee0868-f93d-4beb-a9a3-8c58b3053358")
 	)
 	(label "SEL"
-		(at 90.17 74.93 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bc1c9fa5-a74b-48ea-87d0-72aeeed0294c")
-	)
-	(label "SW4"
-		(at 29.21 68.58 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c22c6e88-6926-480b-be4f-70ed7305fa44")
-	)
-	(label "MOSI"
-		(at 90.17 44.45 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c563b682-1951-4a05-b426-24419b93a008")
-	)
-	(label "SEL"
 		(at 189.23 120.65 180)
 		(effects
 			(font
@@ -5543,6 +5475,16 @@
 			(justify right bottom)
 		)
 		(uuid "cb266c44-bc0c-45c2-bf75-b28c3dd0196f")
+	)
+	(label "I2S_SD"
+		(at 90.17 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cd319754-8c12-4d91-b5d0-3b54673e442f")
 	)
 	(label "VBAT"
 		(at 58.42 107.95 90)
@@ -5564,16 +5506,6 @@
 		)
 		(uuid "ea76030a-ccb4-40e6-a8ab-854c5e7ea2bb")
 	)
-	(label "SW5"
-		(at 128.27 121.92 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ed3917e5-0c9d-4e7d-b007-bd9a3e58ad83")
-	)
 	(label "SW3"
 		(at 146.05 107.95 180)
 		(effects
@@ -5593,162 +5525,6 @@
 			(justify right bottom)
 		)
 		(uuid "ff6f8769-b267-4343-a9a2-6f465f48aed6")
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 120.65 121.92 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0370d087-d410-46b8-89cf-83807efa86d0")
-		(property "Reference" "#PWR06"
-			(at 120.65 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 120.65 127 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 120.65 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 120.65 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 120.65 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4b1f4f7d-30e3-4447-adf2-956be189c52a")
-		)
-		(instances
-			(project "Timagotchi"
-				(path "/fffb594e-bf77-45e9-a4da-34b8c4c79703"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 138.43 121.92 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "047d2a0c-b1c0-43bf-bf52-c179edd1341e")
-		(property "Reference" "#PWR07"
-			(at 138.43 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 138.43 127 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 138.43 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 138.43 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 138.43 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3ee7e739-f753-4f32-ba2d-1351db50e752")
-		)
-		(instances
-			(project "Timagotchi"
-				(path "/fffb594e-bf77-45e9-a4da-34b8c4c79703"
-					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -5903,86 +5679,6 @@
 			(project "Timagotchi"
 				(path "/fffb594e-bf77-45e9-a4da-34b8c4c79703"
 					(reference "SW3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Omron_B3FS")
-		(at 115.57 121.92 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "121fd1ff-e1f7-44a9-b749-8ba19c032a13")
-		(property "Reference" "SW4"
-			(at 115.57 114.3 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Omron_B3FS"
-			(at 115.57 116.84 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_Omron_B3FS-100xP"
-			(at 115.57 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf"
-			(at 115.57 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Omron B3FS 6x6mm single pole normally-open tactile switch"
-			(at 115.57 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "6b957840-4757-48a2-b890-103ccec4d2fa")
-		)
-		(pin "1"
-			(uuid "42308e11-d15d-4681-8ec1-841b76fe1dbb")
-		)
-		(instances
-			(project "Timagotchi"
-				(path "/fffb594e-bf77-45e9-a4da-34b8c4c79703"
-					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -6375,86 +6071,6 @@
 			(project "Timagotchi"
 				(path "/fffb594e-bf77-45e9-a4da-34b8c4c79703"
 					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Omron_B3FS")
-		(at 151.13 121.92 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3a4a467d-42a3-42c5-92a2-20fc60787365")
-		(property "Reference" "SW6"
-			(at 151.13 114.3 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Omron_B3FS"
-			(at 151.13 116.84 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_Omron_B3FS-100xP"
-			(at 151.13 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf"
-			(at 151.13 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Omron B3FS 6x6mm single pole normally-open tactile switch"
-			(at 151.13 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "bf2e98fc-b03a-47ad-b961-4342490c9248")
-		)
-		(pin "1"
-			(uuid "f86627b9-34e4-4f02-b011-595e64d5b048")
-		)
-		(instances
-			(project "Timagotchi"
-				(path "/fffb594e-bf77-45e9-a4da-34b8c4c79703"
-					(reference "SW6")
 					(unit 1)
 				)
 			)
@@ -8180,7 +7796,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CON_2005280180_MOL"
+		(property "Footprint" "Connector_FFC-FPC:Molex_200528-0180_1x18-1MP_P1.00mm_Horizontal"
 			(at 157.48 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -8603,84 +8219,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 156.21 121.92 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d34651fc-9ed1-4627-9e5c-f9a83bfe0c96")
-		(property "Reference" "#PWR08"
-			(at 156.21 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 156.21 127 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 156.21 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 156.21 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 156.21 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f6947694-0537-4b28-a5c6-8de98664fd68")
-		)
-		(instances
-			(project "Timagotchi"
-				(path "/fffb594e-bf77-45e9-a4da-34b8c4c79703"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Audio:MAX98357A")
 		(at 203.2 62.23 0)
 		(unit 1)
@@ -8802,86 +8340,6 @@
 			(project "Timagotchi"
 				(path "/fffb594e-bf77-45e9-a4da-34b8c4c79703"
 					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Omron_B3FS")
-		(at 133.35 121.92 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "daf477f0-9952-4279-9c19-e25dbbe58d2b")
-		(property "Reference" "SW5"
-			(at 133.35 114.3 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Omron_B3FS"
-			(at 133.35 116.84 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_Omron_B3FS-100xP"
-			(at 133.35 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf"
-			(at 133.35 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Omron B3FS 6x6mm single pole normally-open tactile switch"
-			(at 133.35 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "3b65f77f-6e11-45ab-896e-34fc69a1c650")
-		)
-		(pin "1"
-			(uuid "2eb5c381-8291-4ecd-8709-c7e0fd01483c")
-		)
-		(instances
-			(project "Timagotchi"
-				(path "/fffb594e-bf77-45e9-a4da-34b8c4c79703"
-					(reference "SW5")
 					(unit 1)
 				)
 			)
