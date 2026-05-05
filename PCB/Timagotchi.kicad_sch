@@ -7138,7 +7138,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb88c2bd-2871-40f5-b6ee-55668f519c1b")
-		(property "Reference" "ScreenConnector"
+		(property "Reference" "ScreenConnector1"
 			(at 171.45 53.3399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7258,7 +7258,7 @@
 		(instances
 			(project "Timagotchi"
 				(path "/fffb594e-bf77-45e9-a4da-34b8c4c79703"
-					(reference "ScreenConnector")
+					(reference "ScreenConnector1")
 					(unit 1)
 				)
 			)
