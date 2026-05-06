@@ -414,6 +414,315 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "CMS-201438-058S:CMS-201438-058S"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "LS"
+				(at -1.27 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "CMS-201438-058S"
+				(at -1.27 -8.255 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "CMS-201438-058S:SPKR_CMS-201438-058S"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "4.1mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "CREATOR" "DIZAR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "PARTREV" "1.03"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "VERIFIER" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MANUFACTURER" "Same Sky"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "CMS-201438-058S_0_0"
+				(polyline
+					(pts
+						(xy -3.175 1.905) (xy -3.175 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 1.905) (xy -2.54 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 -1.905) (xy -2.54 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy -2.54 1.905)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.905) (xy 0 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.905) (xy 0 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy -2.54 -1.905)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.905) (xy 2.54 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.905) (xy 0 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.905) (xy 2.54 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -5.08) (xy 2.54 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 -5.08 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "N"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 5.08 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "P"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Conn_01x02_Pin"
 			(pin_names
 				(offset 1.016)
@@ -4803,20 +5112,12 @@
 		(uuid "375c729d-b5b8-4b0c-a8cf-17c5797a93ce")
 	)
 	(no_connect
-		(at 215.9 54.61)
-		(uuid "3e95cd79-973b-41d0-8294-e96b8dc3bd3a")
-	)
-	(no_connect
 		(at 90.17 74.93)
 		(uuid "425279b0-ae3d-4c4f-83ed-df0836d0f491")
 	)
 	(no_connect
 		(at 29.21 60.96)
 		(uuid "4515e343-974e-407a-ba4a-6c68c949ce64")
-	)
-	(no_connect
-		(at 215.9 57.15)
-		(uuid "578de08a-298f-4def-9ef0-92f24b0c3f6c")
 	)
 	(no_connect
 		(at 157.48 53.34)
@@ -4845,6 +5146,14 @@
 	(no_connect
 		(at 90.17 87.63)
 		(uuid "c0b96cfa-68c3-4899-ab51-a3b6f24370ef")
+	)
+	(no_connect
+		(at 90.17 44.45)
+		(uuid "c1957649-8b77-4b58-b4e7-f40409de0b9d")
+	)
+	(no_connect
+		(at 29.21 63.5)
+		(uuid "cd680fb7-fe33-45b7-8a03-b411375e2892")
 	)
 	(no_connect
 		(at 157.48 58.42)
@@ -4886,6 +5195,26 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 54.61) (xy 215.9 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b4bb152-f87e-4115-9568-857c77f2d10d")
+	)
+	(wire
+		(pts
+			(xy 215.9 60.96) (xy 215.9 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f37c8a6-f0b9-4c7d-9a60-a907717ea132")
+	)
+	(wire
+		(pts
 			(xy 154.94 76.2) (xy 157.48 76.2)
 		)
 		(stroke
@@ -4893,6 +5222,16 @@
 			(type default)
 		)
 		(uuid "510026d4-6f8f-454b-97e0-22ce86037852")
+	)
+	(wire
+		(pts
+			(xy 215.9 50.8) (xy 226.06 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59b7ef53-0c96-42d2-b50e-f35746c00996")
 	)
 	(wire
 		(pts
@@ -4913,6 +5252,16 @@
 			(type default)
 		)
 		(uuid "bdfd007e-45e6-4116-8164-b224c3b77453")
+	)
+	(wire
+		(pts
+			(xy 226.06 60.96) (xy 215.9 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c25b50d4-bcbd-498b-b893-37327b8bdc7d")
 	)
 	(label "VBAT"
 		(at 29.21 82.55 180)
@@ -4964,7 +5313,7 @@
 		)
 		(uuid "16061c91-7754-4b44-a8bc-9ad157cb248c")
 	)
-	(label "SCLK"
+	(label "TP_INT"
 		(at 29.21 66.04 180)
 		(effects
 			(font
@@ -4974,7 +5323,7 @@
 		)
 		(uuid "192f46d5-2285-4a36-a696-6642e92b7cdf")
 	)
-	(label "HPOS"
+	(label "TP_SDA"
 		(at 29.21 73.66 180)
 		(effects
 			(font
@@ -5024,7 +5373,7 @@
 		)
 		(uuid "285439a0-3829-4ebd-8e6e-1007de8d4e07")
 	)
-	(label "LCD_BL"
+	(label "MOSI"
 		(at 29.21 40.64 180)
 		(effects
 			(font
@@ -5034,7 +5383,7 @@
 		)
 		(uuid "2855b962-8c24-4db6-a3ae-a5c5db0d634e")
 	)
-	(label "TP_INT"
+	(label "LCD_BL"
 		(at 29.21 33.02 180)
 		(effects
 			(font
@@ -5044,7 +5393,7 @@
 		)
 		(uuid "2cf40f43-6e48-4da2-a448-348fbce4e54c")
 	)
-	(label "I2S_WS"
+	(label "I2S_SD"
 		(at 90.17 52.07 0)
 		(effects
 			(font
@@ -5124,7 +5473,7 @@
 		)
 		(uuid "623b2c01-ced9-4fab-891e-174ccc05a3d5")
 	)
-	(label "LCD_DC"
+	(label "TP_INT"
 		(at 157.48 45.72 180)
 		(effects
 			(font
@@ -5164,7 +5513,7 @@
 		)
 		(uuid "9169fc6b-34f0-4e4c-9823-03a511096ef7")
 	)
-	(label "TP_INT"
+	(label "LCD_DC"
 		(at 157.48 66.04 180)
 		(effects
 			(font
@@ -5174,7 +5523,7 @@
 		)
 		(uuid "9c271c2b-ee54-4205-8d7d-760b0e4953a2")
 	)
-	(label "TP_SDA"
+	(label "VPOS"
 		(at 29.21 48.26 180)
 		(effects
 			(font
@@ -5184,7 +5533,7 @@
 		)
 		(uuid "a2f44b49-a326-4c75-84d8-836ed48010f8")
 	)
-	(label "MOSI"
+	(label "SCLK"
 		(at 29.21 36.83 180)
 		(effects
 			(font
@@ -5204,7 +5553,7 @@
 		)
 		(uuid "ab47c1e8-2bf7-47b2-89a5-fe8a6d6fb0de")
 	)
-	(label "VPOS"
+	(label "HPOS"
 		(at 29.21 71.12 180)
 		(effects
 			(font
@@ -5234,7 +5583,7 @@
 		)
 		(uuid "b7ee0868-f93d-4beb-a9a3-8c58b3053358")
 	)
-	(label "I2S_SD"
+	(label "I2S_WS"
 		(at 90.17 48.26 0)
 		(effects
 			(font
@@ -7705,6 +8054,161 @@
 			(project "Timagotchi"
 				(path "/fffb594e-bf77-45e9-a4da-34b8c4c79703"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CMS-201438-058S:CMS-201438-058S")
+		(at 228.6 55.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fbf4fbf6-6bd9-4912-a141-eb976791be96")
+		(property "Reference" "LS1"
+			(at 232.41 54.6099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CMS-201438-058S"
+			(at 232.41 57.1499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Speaker speaker:SPKR_CMS-201438-058S"
+			(at 228.6 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 228.6 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "4.1mm"
+			(at 228.6 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "CREATOR" "DIZAR"
+			(at 228.6 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 228.6 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "1.03"
+			(at 228.6 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "VERIFIER" ""
+			(at 228.6 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Same Sky"
+			(at 228.6 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "N"
+			(uuid "692e88e1-54d4-4036-aa38-64c22a7bba06")
+		)
+		(pin "P"
+			(uuid "939577ef-f2f4-4c5d-ad90-d5114d35842a")
+		)
+		(instances
+			(project "Timagotchi"
+				(path "/fffb594e-bf77-45e9-a4da-34b8c4c79703"
+					(reference "LS1")
 					(unit 1)
 				)
 			)
