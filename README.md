@@ -7,6 +7,8 @@ Anyway, The Timagotchi *(time-a-got-chee)* is a low-cost device that helps with 
 [^2]:You're bad at telling how much time has passed
 with a progress bar and other features shown to help people with time blindness at a quick glance with many other useful features.
 
+I made it becuase i personally have issues telling how much time is left in class, and was really really bored. turned out to be a really really good idea. ive sold these at school to other kids with adhd and actually made profit??? i made the v2 to reduce price and DRASTICALLY improve quality
+
 Some upgrades over the earlier version include
 
 - Price reduction
