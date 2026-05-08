@@ -21,5 +21,8 @@ as of writing this bom i do not have the actual parts, so i cant make any tutori
 
 <img width="838" height="436" alt="Front " src="https://github.com/user-attachments/assets/0c3fc2b7-e7f4-47c2-a341-190785fd8fb7" />
 <img width="1320" height="728" alt="Back" src="https://github.com/user-attachments/assets/021df732-5158-4aa8-b614-d0e966fa8f53" />
+<img width="1518" height="563" alt="image" src="https://github.com/user-attachments/assets/b62a26ef-5024-4623-930d-726380d9e0e2" />
+
+
 
 This is a project for Hack Club Fallout.
