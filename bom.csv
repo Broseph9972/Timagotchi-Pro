@@ -1,13 +1,13 @@
 Designator,Footprint,Quantity,Designation,Price,Link
-J1,JOYSTICK-PSP1000,1,Conn_01x04,$0.93,PSP 1000
-J2,JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical,1,Conn_01x02_Pin,$0.11,JST
-LS1,SPKR_CMS-201438-058S,1,,$4.24,Speaker
-ScreenConnector1,CON_2005280180_MOL,1,CMS-201438-058S,$1.86,FFC Connector
-"SW1, SW2, SW3",SW_SPST_Omron_B3FS-100xP,3,SW_Omron_B3FS,$0.99,Switches
+J1,JOYSTICK-PSP1000,1,Conn_01x04,$0.93,https://www.adafruit.com/product/444
+J2,JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical,1,Conn_01x02_Pin,$0.11,https://www.digikey.com/en/products/detail/jst-sales-america-inc/B2B-PH-K-S/926611
+LS1,SPKR_CMS-201438-058S,1,,$4.24,https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices/CMS-201438-058S/22602291
+ScreenConnector1,CON_2005280180_MOL,1,CMS-201438-058S,$1.86,https://www.digikey.com/en/products/detail/molex/2005280180/13538830\
+"SW1, SW2, SW3",SW_SPST_Omron_B3FS-100xP,3,SW_Omron_B3FS,$0.99,https://www.aliexpress.us/item/3256808421842171.html?algo_exp_id=c283c4d6-ffa1-4446-9947-9e4c5de8349d-13&pdp_ext_f=%7B%22order%22%3A%22108%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005008608156923%7C_p_origin_prod%3A
 U1,XIAO-ESP32-S3-Plus-SMD,1,XIAO-ESP32-S3-Plus-SMD,$6.02,Esp32-s3
-U2,TQFN-16-1EP_3x3mm_P0.5mm_EP1.23x1.23mm,1,MAX98357A,$1.51,Amplifier
-PCB,,1,,$5.22,JLC
-Battery,,1,,$0.99,Battery
+U2,TQFN-16-1EP_3x3mm_P0.5mm_EP1.23x1.23mm,1,MAX98357A,$1.51,https://www.aliexpress.us/item/3256807631636428.html?algo_exp_id=60dd1b32-b01c-4ea4-aa7c-080ad8d2e19e-10&pdp_ext_f=%7B%22order%22%3A%2246%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005007817951180%7C_p_origin_prod%3A
+PCB,,1,,$5.22,https://jlcpcb.com/
+Battery,,1,,$0.99,https://www.aliexpress.us/item/3256802733222186.html?spm=a2g0o.productlist.main.2.573662c3rEHzeH&algo_pvid=776a5850-4451-4f10-b9ac-21b38e442e2a&algo_exp_id=776a5850-4451-4f10-b9ac-21b38e442e2a-1&pdp_ext_f=%7B%22order%22%3A%221283%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21USD%2112.94%210.99%21%21%2112.94%210.99%21%402101d49617782838741088519ed7e7%2112000028368881594%21sea%21US%210%21ABX%211%210%21n_tag%3A-29910%3Bd%3A88f1f0e6%3Bm03_new_user%3A-29895%3BpisId%3A5000000203520967&curPageLogUid=4m6JpZeIsJ89&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005002919536938%7C_p_origin_prod%3A
 3d Printed parts,, ?,,$0.20,NA
-Screen,,1,,$11.00,Link
+Screen,,1,,$11.00,https://www.waveshare.com/product/displays/lcd-oled/lcd-oled-3/1.47inch-touch-lcd.htm
 ,,,Total,$34.85,
