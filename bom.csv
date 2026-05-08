@@ -1,13 +1,13 @@
 Designator,Footprint,Quantity,Designation,Price,Link
 J1,JOYSTICK-PSP1000,1,Conn_01x04,$0.93,PSP 1000
 J2,JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical,1,Conn_01x02_Pin,$0.11,JST
-LS1,SPKR_CMS-201438-058S,1,CMS-201438-058S,$4.24,Speaker
-ScreenConnector1,CON_2005280180_MOL,1,2005280180,$1.86,FFC Connector
+LS1,SPKR_CMS-201438-058S,1,,$4.24,Speaker
+ScreenConnector1,CON_2005280180_MOL,1,CMS-201438-058S,$1.86,FFC Connector
 "SW1, SW2, SW3",SW_SPST_Omron_B3FS-100xP,3,SW_Omron_B3FS,$0.99,Switches
 U1,XIAO-ESP32-S3-Plus-SMD,1,XIAO-ESP32-S3-Plus-SMD,$6.02,Esp32-s3
 U2,TQFN-16-1EP_3x3mm_P0.5mm_EP1.23x1.23mm,1,MAX98357A,$1.51,Amplifier
-PCB,,1,,$5.22,
-Battery,,1,,$1.70,
-3d Printed parts,,3,,$0.20,
-Screen,,1,,$11.00,
-,,,Total,$36.16,
+PCB,,1,,$5.22,JLC
+Battery,,1,,$0.99,Battery
+3d Printed parts,, ?,,$0.20,NA
+Screen,,1,,$11.00,Link
+,,,Total,$34.85,
