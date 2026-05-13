@@ -7,4 +7,5 @@
 	(lib (name "Custom Footprints") (type "KiCad") (uri "${KIPRJMOD}/Custom Footprints") (options "") (descr ""))
 	(lib (name "FFC") (type "KiCad") (uri "${KIPRJMOD}/FFC Cable/footprints.pretty") (options "") (descr ""))
 	(lib (name "Speaker speaker") (type "KiCad") (uri "${KIPRJMOD}/Speaker Footprints/Speaker speaker") (options "") (descr ""))
+	(lib (name "Directional Pad") (type "KiCad") (uri "${KIPRJMOD}/Directional Pad") (options "") (descr ""))
 )

@@ -904,222 +904,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_01x04"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x04"
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Conn_01x04_1_1"
-				(rectangle
-					(start -1.27 3.81)
-					(end 1.27 -6.35)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "FFC:2005280180"
 			(body_styles demorgan)
 			(pin_names
@@ -4472,53 +4256,39 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_Omron_B3FS"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "TL3342F160QG:TL3342F160QG"
 			(pin_names
 				(offset 1.016)
-				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "SW"
-				(at 1.27 2.54 0)
+			(property "Reference" "S"
+				(at -8.9062 11.4509 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify left bottom)
 				)
 			)
-			(property "Value" "SW_Omron_B3FS"
-				(at 0 -1.524 0)
+			(property "Value" "TL3342F160QG"
+				(at -8.898 -12.7114 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf"
-				(at 0 5.08 0)
+			(property "Footprint" "TL3342F160QG:SW_TL3342F160QG"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -4526,9 +4296,10 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 				)
 			)
-			(property "Description" "Omron B3FS 6x6mm single pole normally-open tactile switch"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4539,7 +4310,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "switch normally-open pushbutton push-button"
+			(property "Description" "TACT, 50mA, 12VDC SPST-NO, Off-(On), Surface Mount"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4548,9 +4319,10 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 				)
 			)
-			(property "ki_fp_filters" "SW*Omron*B3FS*"
+			(property "MF" "E-Switch"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4559,14 +4331,100 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 				)
 			)
-			(symbol "SW_Omron_B3FS_0_1"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
+			(property "Package" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/TL3342F160QG/E-Switch/view-part/?ref=eda"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/TL3342F160QG/E-Switch/view-part/?ref=snap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MP" "TL3342F160QG"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MANUFACTURER" "E SWITCH"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "TL3342F160QG_0_0"
+				(polyline
+					(pts
+						(xy -7.62 5.08) (xy 0 5.08)
+					)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -4575,21 +4433,10 @@
 				)
 				(polyline
 					(pts
-						(xy 0 1.27) (xy 0 3.048)
+						(xy -7.62 -5.08) (xy 0 -5.08)
 					)
 					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -4598,10 +4445,104 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 1.27) (xy -2.54 1.27)
+						(xy 0 5.08) (xy 7.62 5.08)
 					)
 					(stroke
-						(width 0)
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.905) (xy 0 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 1.27)
+					(radius 0.762)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -1.27)
+					(radius 0.762)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.905) (xy 0 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy 7.62 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 3.175) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 2.54 -3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 6.985 0)
+					)
+					(stroke
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -4609,37 +4550,73 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -7.62 -7.62 90)
 					(length 2.54)
 					(name "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at 5.08 0 180)
+					(at 7.62 -7.62 90)
 					(length 2.54)
 					(name "2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 7.62 270)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 7.62 270)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -5041,19 +5018,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Buttons"
+	(text "Directional Pad\n"
 		(exclude_from_sim no)
-		(at 132.842 95.504 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "5747b7fa-9dbb-4e04-b817-a33c3e3e4647")
-	)
-	(text "Joystick"
-		(exclude_from_sim no)
-		(at 197.358 102.616 0)
+		(at 202.692 96.774 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5090,6 +5057,36 @@
 			)
 		)
 		(uuid "b765e345-0510-4645-b470-e5619048201e")
+	)
+	(junction
+		(at 186.69 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "020624d8-e52b-4dae-816c-6ffbabc0216e")
+	)
+	(junction
+		(at 228.6 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "097d2b00-7dfa-4abc-b801-4105c97e6371")
+	)
+	(junction
+		(at 208.28 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c9d1898-c2c3-44c8-b8e3-600607f9548b")
+	)
+	(junction
+		(at 208.026 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4407a5c6-9a64-43d0-a193-9662650e64fa")
+	)
+	(junction
+		(at 208.28 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f1dd1a01-b070-4957-8fbf-158e5808a983")
 	)
 	(no_connect
 		(at 90.17 80.01)
@@ -5148,10 +5145,6 @@
 		(uuid "c0b96cfa-68c3-4899-ab51-a3b6f24370ef")
 	)
 	(no_connect
-		(at 90.17 44.45)
-		(uuid "c1957649-8b77-4b58-b4e7-f40409de0b9d")
-	)
-	(no_connect
 		(at 29.21 63.5)
 		(uuid "cd680fb7-fe33-45b7-8a03-b411375e2892")
 	)
@@ -5165,13 +5158,33 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 109.22) (xy 194.31 109.22)
+			(xy 187.96 118.11) (xy 186.69 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "12497cef-7a24-4961-a4ae-dd50180bc654")
+		(uuid "02200923-e068-4634-ac51-671985360679")
+	)
+	(wire
+		(pts
+			(xy 193.04 118.11) (xy 208.026 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07497ddf-989d-4ab9-b871-fe8efa9746eb")
+	)
+	(wire
+		(pts
+			(xy 210.82 115.57) (xy 208.026 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0757c845-7e28-4d6a-88a6-49d2a56b4602")
 	)
 	(wire
 		(pts
@@ -5182,6 +5195,16 @@
 			(type default)
 		)
 		(uuid "1a1e6faf-3256-4936-833d-6225bf129264")
+	)
+	(wire
+		(pts
+			(xy 193.04 151.13) (xy 208.28 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "265ef8eb-a1c5-4bc3-9355-63bfec31d298")
 	)
 	(wire
 		(pts
@@ -5205,6 +5228,26 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 135.89) (xy 208.28 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f8839d3-8369-42d5-bc24-86deea9e5bc6")
+	)
+	(wire
+		(pts
+			(xy 234.95 118.11) (xy 228.6 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "379c1a32-8a98-4a77-8880-6c284d2de44e")
+	)
+	(wire
+		(pts
 			(xy 215.9 60.96) (xy 215.9 57.15)
 		)
 		(stroke
@@ -5212,6 +5255,16 @@
 			(type default)
 		)
 		(uuid "3f37c8a6-f0b9-4c7d-9a60-a907717ea132")
+	)
+	(wire
+		(pts
+			(xy 171.45 118.11) (xy 186.69 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f4b9525-fa5f-401b-a275-a6f60b731cac")
 	)
 	(wire
 		(pts
@@ -5225,6 +5278,26 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 135.89) (xy 208.28 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "518b52f2-95f4-4523-a2b3-50dcb8b7acfa")
+	)
+	(wire
+		(pts
+			(xy 214.63 101.6) (xy 208.28 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "579b3696-be26-431d-8bb9-102e04ce3927")
+	)
+	(wire
+		(pts
 			(xy 215.9 50.8) (xy 226.06 50.8)
 		)
 		(stroke
@@ -5232,6 +5305,26 @@
 			(type default)
 		)
 		(uuid "59b7ef53-0c96-42d2-b50e-f35746c00996")
+	)
+	(wire
+		(pts
+			(xy 193.04 133.35) (xy 208.28 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6206db57-f692-47d0-9161-1c91ea514dcf")
+	)
+	(wire
+		(pts
+			(xy 193.04 101.6) (xy 208.28 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "622a6cc3-992a-489f-a5c0-24a8546a8d92")
 	)
 	(wire
 		(pts
@@ -5245,6 +5338,46 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 116.84) (xy 208.28 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a3501fb-01e3-4d14-922b-a1e0b293bfc6")
+	)
+	(wire
+		(pts
+			(xy 208.026 118.11) (xy 208.28 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8aadc71e-1478-4074-97ad-a42c38765271")
+	)
+	(wire
+		(pts
+			(xy 187.96 116.84) (xy 187.96 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a14d96ee-615a-4c00-979b-920aa0ef317e")
+	)
+	(wire
+		(pts
+			(xy 213.36 118.11) (xy 228.6 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a23dec6d-9fa8-4483-a6d6-927699359ae4")
+	)
+	(wire
+		(pts
 			(xy 148.59 35.56) (xy 157.48 35.56)
 		)
 		(stroke
@@ -5255,6 +5388,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 133.35) (xy 186.69 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c15d9e3a-c6ad-4c88-b466-b918b01587e6")
+	)
+	(wire
+		(pts
 			(xy 226.06 60.96) (xy 215.9 60.96)
 		)
 		(stroke
@@ -5262,6 +5405,26 @@
 			(type default)
 		)
 		(uuid "c25b50d4-bcbd-498b-b893-37327b8bdc7d")
+	)
+	(wire
+		(pts
+			(xy 213.36 133.35) (xy 228.6 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9770709-e719-4de1-aad2-60bb61a8d620")
+	)
+	(wire
+		(pts
+			(xy 189.23 116.84) (xy 187.96 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efa55d5d-ef64-4492-830f-c3b4c958e578")
 	)
 	(label "VBAT"
 		(at 29.21 82.55 180)
@@ -5282,6 +5445,16 @@
 			(justify right bottom)
 		)
 		(uuid "03231e96-a332-42e1-8eb4-98b3774fbb69")
+	)
+	(label "SW4"
+		(at 193.04 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "04a8812b-0571-45d7-8c90-730860f6ac91")
 	)
 	(label "LCD_RST"
 		(at 157.48 48.26 180)
@@ -5343,26 +5516,6 @@
 		)
 		(uuid "2283023c-8da1-498e-b88a-5b893fa60f99")
 	)
-	(label "SW1"
-		(at 110.49 107.95 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "24a222c4-be45-4a12-a55d-59a375980a59")
-	)
-	(label "HPOS"
-		(at 194.31 106.68 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "26059a8f-db96-4ad6-9104-e54fa40fb73f")
-	)
 	(label "MISO"
 		(at 157.48 43.18 180)
 		(effects
@@ -5413,26 +5566,6 @@
 		)
 		(uuid "35263ce1-2dbb-4a4a-ba3e-713fa9220a5d")
 	)
-	(label "SW2"
-		(at 90.17 60.96 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "374ee98b-f295-4370-8e74-14036aa144aa")
-	)
-	(label "VPOS"
-		(at 194.31 111.76 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "427050a8-6965-4334-946b-dad98f46004d")
-	)
 	(label "MOSI"
 		(at 157.48 40.64 180)
 		(effects
@@ -5462,16 +5595,6 @@
 			(justify right bottom)
 		)
 		(uuid "5ef356ea-0dda-43e4-9dbb-137b5a425013")
-	)
-	(label "SW2"
-		(at 128.27 107.95 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "623b2c01-ced9-4fab-891e-174ccc05a3d5")
 	)
 	(label "TP_INT"
 		(at 157.48 45.72 180)
@@ -5523,16 +5646,6 @@
 		)
 		(uuid "9c271c2b-ee54-4205-8d7d-760b0e4953a2")
 	)
-	(label "VPOS"
-		(at 29.21 48.26 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a2f44b49-a326-4c75-84d8-836ed48010f8")
-	)
 	(label "SCLK"
 		(at 29.21 36.83 180)
 		(effects
@@ -5542,26 +5655,6 @@
 			(justify right bottom)
 		)
 		(uuid "aaed0811-5287-4d8a-8229-30caea71ef29")
-	)
-	(label "SW1"
-		(at 90.17 55.88 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ab47c1e8-2bf7-47b2-89a5-fe8a6d6fb0de")
-	)
-	(label "HPOS"
-		(at 29.21 71.12 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b0f42228-6d62-4848-aeed-3f905e1f58d0")
 	)
 	(label "LCD_RST"
 		(at 29.21 44.45 180)
@@ -5603,7 +5696,47 @@
 		)
 		(uuid "d3b2909b-6753-4072-8b6a-4e46cc21b000")
 	)
+	(label "SW5"
+		(at 29.21 48.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e0103bb0-0712-4977-9de0-2742f140e361")
+	)
 	(label "SW3"
+		(at 213.36 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e3725f10-8188-46bf-871d-35b87dbb34b0")
+	)
+	(label "SW1"
+		(at 90.17 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e50fbf3e-64ed-4dee-b2ca-d80f2b8f1d2d")
+	)
+	(label "SW3"
+		(at 90.17 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e838041d-4f34-42af-b204-41d6a742d7b0")
+	)
+	(label "SW4"
 		(at 90.17 66.04 0)
 		(effects
 			(font
@@ -5611,17 +5744,47 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "ea76030a-ccb4-40e6-a8ab-854c5e7ea2bb")
+		(uuid "ee1f1cd9-a1b3-47b8-a586-442431ce5667")
 	)
-	(label "SW3"
-		(at 146.05 107.95 180)
+	(label "SW1"
+		(at 171.45 133.35 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "f9ec073a-6926-4cf4-b7d9-e33e1e167ecc")
+		(uuid "ef6cb2a9-ba0e-4ecc-9056-eab2665502cc")
+	)
+	(label "SW2"
+		(at 90.17 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f6530df0-2384-4ec7-9ccc-d10d27ea580e")
+	)
+	(label "SW2"
+		(at 193.04 151.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f795765c-265a-4ea1-99e8-23d7ab09de22")
+	)
+	(label "SW5"
+		(at 193.04 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f916c972-0301-4bac-8080-a4ed3170899a")
 	)
 	(label "TP_SDA"
 		(at 157.48 63.5 180)
@@ -5635,7 +5798,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 156.21 107.95 0)
+		(at 234.95 118.11 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5644,9 +5807,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0dd12f5a-a8ac-4ef0-b89d-ff68021b07fe")
-		(property "Reference" "#PWR05"
-			(at 156.21 114.3 0)
+		(uuid "05a73bc5-dec6-491c-9e2a-144f4e85b70f")
+		(property "Reference" "#PWR06"
+			(at 234.95 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5657,7 +5820,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 156.21 113.03 0)
+			(at 234.95 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5667,7 +5830,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 156.21 107.95 0)
+			(at 234.95 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5678,7 +5841,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 107.95 0)
+			(at 234.95 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5689,7 +5852,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 156.21 107.95 0)
+			(at 234.95 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5700,20 +5863,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "250bb03b-66ee-4d79-8ce5-3d60c62f8c12")
+			(uuid "77880afc-5064-44e2-bb02-af18c43c0277")
 		)
 		(instances
 			(project "Timagotchi"
 				(path "/fffb594e-bf77-45e9-a4da-34b8c4c79703"
-					(reference "#PWR05")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Omron_B3FS")
-		(at 151.13 107.95 0)
+		(lib_id "TL3342F160QG:TL3342F160QG")
+		(at 179.07 125.73 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5722,29 +5885,44 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "111ccfef-0dfe-471f-ab62-2e1a368cb9e4")
-		(property "Reference" "SW3"
-			(at 151.13 100.33 0)
+		(uuid "0e3b38bc-1469-4822-ab15-fcc862d75270")
+		(property "Reference" "S1"
+			(at 187.96 124.4599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "SW_Omron_B3FS"
-			(at 151.13 102.87 0)
+		(property "Value" "TL3342F160QG"
+			(at 187.96 126.9999 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_Omron_B3FS-100xP"
-			(at 151.13 102.87 0)
+		(property "Footprint" "Switch Footprints:SW_TL3342F160QG"
+			(at 179.07 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5754,8 +5932,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf"
-			(at 151.13 102.87 0)
+		(property "Description" "TACT, 50mA, 12VDC SPST-NO, Off-(On), Surface Mount"
+			(at 179.07 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5763,10 +5941,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 			)
 		)
-		(property "Description" "Omron B3FS 6x6mm single pole normally-open tactile switch"
-			(at 151.13 107.95 0)
+		(property "MF" "E-Switch"
+			(at 179.07 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5774,18 +5953,296 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 			)
 		)
-		(pin "2"
-			(uuid "77bdafad-2326-4496-9edd-b22865f7ef6a")
+		(property "Package" "None"
+			(at 179.07 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 179.07 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TL3342F160QG/E-Switch/view-part/?ref=eda"
+			(at 179.07 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TL3342F160QG/E-Switch/view-part/?ref=snap"
+			(at 179.07 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "TL3342F160QG"
+			(at 179.07 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 179.07 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "E SWITCH"
+			(at 179.07 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
 		)
 		(pin "1"
-			(uuid "f1bedc2f-438a-4c87-ba70-5e0aee97c2f2")
+			(uuid "36c3bc3f-67b5-4e3e-98f3-a5d597bac82c")
+		)
+		(pin "4"
+			(uuid "6c506929-5fbf-4299-8f86-286e2ecd05b2")
+		)
+		(pin "3"
+			(uuid "576409ed-bbad-4d3d-8a32-cc49a9ec2a4e")
+		)
+		(pin "2"
+			(uuid "eb986877-5410-40c7-a63a-9dc33abfe545")
 		)
 		(instances
 			(project "Timagotchi"
 				(path "/fffb594e-bf77-45e9-a4da-34b8c4c79703"
-					(reference "SW3")
+					(reference "S1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TL3342F160QG:TL3342F160QG")
+		(at 220.98 125.73 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "10b1dc80-dfa6-4bce-bd6d-c6e7b63f9795")
+		(property "Reference" "S3"
+			(at 229.87 124.4599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TL3342F160QG"
+			(at 229.87 126.9999 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Switch Footprints:SW_TL3342F160QG"
+			(at 220.98 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "TACT, 50mA, 12VDC SPST-NO, Off-(On), Surface Mount"
+			(at 220.98 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "E-Switch"
+			(at 220.98 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "None"
+			(at 220.98 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 220.98 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TL3342F160QG/E-Switch/view-part/?ref=eda"
+			(at 220.98 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TL3342F160QG/E-Switch/view-part/?ref=snap"
+			(at 220.98 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "TL3342F160QG"
+			(at 220.98 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 220.98 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "E SWITCH"
+			(at 220.98 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "1"
+			(uuid "16098953-956f-43d9-b863-d1a653579d3d")
+		)
+		(pin "4"
+			(uuid "4ce93c5c-959f-492a-b725-fe854a6c0e39")
+		)
+		(pin "3"
+			(uuid "83da391a-15c2-49ab-96e6-4453a1ad8f79")
+		)
+		(pin "2"
+			(uuid "ab7623a6-b8ce-4b62-bda5-66877aa46d06")
+		)
+		(instances
+			(project "Timagotchi"
+				(path "/fffb594e-bf77-45e9-a4da-34b8c4c79703"
+					(reference "S3")
 					(unit 1)
 				)
 			)
@@ -5949,8 +6406,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 138.43 107.95 0)
+		(lib_id "TL3342F160QG:TL3342F160QG")
+		(at 200.66 143.51 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5959,87 +6416,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "156bda2a-5a01-426f-bd86-7b32345d99f4")
-		(property "Reference" "#PWR04"
-			(at 138.43 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 138.43 113.03 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 138.43 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 138.43 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 138.43 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "949af0f0-a4bd-403a-8a9e-a97ead27ff6c")
-		)
-		(instances
-			(project "Timagotchi"
-				(path "/fffb594e-bf77-45e9-a4da-34b8c4c79703"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
-		(at 199.39 109.22 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1683eb59-2bd9-4696-95da-faf7764c8974")
-		(property "Reference" "J1"
-			(at 201.93 109.2199 0)
+		(uuid "201598ca-2565-4339-8368-cf059f39ef3e")
+		(property "Reference" "S2"
+			(at 209.55 142.2399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6049,8 +6428,9 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x04"
-			(at 201.93 111.7599 0)
+		(property "Value" "TL3342F160QG"
+			(at 209.55 144.7799 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6060,8 +6440,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Library:JOYSTICK-PSP1000"
-			(at 199.39 109.22 0)
+		(property "Footprint" "Switch Footprints:SW_TL3342F160QG"
+			(at 200.66 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6069,10 +6449,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 			)
 		)
 		(property "Datasheet" ""
-			(at 199.39 109.22 0)
+			(at 200.66 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6082,8 +6463,8 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 199.39 109.22 0)
+		(property "Description" "TACT, 50mA, 12VDC SPST-NO, Off-(On), Surface Mount"
+			(at 200.66 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6091,24 +6472,121 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "E-Switch"
+			(at 200.66 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "None"
+			(at 200.66 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 200.66 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TL3342F160QG/E-Switch/view-part/?ref=eda"
+			(at 200.66 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TL3342F160QG/E-Switch/view-part/?ref=snap"
+			(at 200.66 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "TL3342F160QG"
+			(at 200.66 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 200.66 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "E SWITCH"
+			(at 200.66 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
 			)
 		)
 		(pin "1"
-			(uuid "8f827115-26f2-4bcf-8890-c1b9e43e687d")
+			(uuid "785e41b8-fa73-4e5a-9255-828549ba7f74")
 		)
 		(pin "4"
-			(uuid "397f7a65-5def-4802-ad1d-2b69ea4d5535")
-		)
-		(pin "2"
-			(uuid "4ec1f9cc-f220-4c0f-a665-9473837d50fc")
+			(uuid "abf6208a-0741-4985-b374-5fc485461501")
 		)
 		(pin "3"
-			(uuid "901b2bc8-2575-4436-89b3-0fe97945f3c3")
+			(uuid "7df6926f-6506-4e09-b9d4-dd2c5baaf865")
+		)
+		(pin "2"
+			(uuid "9b481f09-01f5-44cb-a7ad-8a163db2030a")
 		)
 		(instances
 			(project "Timagotchi"
 				(path "/fffb594e-bf77-45e9-a4da-34b8c4c79703"
-					(reference "J1")
+					(reference "S2")
 					(unit 1)
 				)
 			)
@@ -6266,163 +6744,6 @@
 			(project "Timagotchi"
 				(path "/fffb594e-bf77-45e9-a4da-34b8c4c79703"
 					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 120.65 107.95 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4125f409-5e25-4a3c-8ae8-f57bb9997515")
-		(property "Reference" "#PWR03"
-			(at 120.65 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 120.65 113.03 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 120.65 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 120.65 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 120.65 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2b897b26-1890-4278-90e2-e77c27da39c0")
-		)
-		(instances
-			(project "Timagotchi"
-				(path "/fffb594e-bf77-45e9-a4da-34b8c4c79703"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 194.31 114.3 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "55d78fc9-66d2-4b27-afe5-9b6e9cea1466")
-		(property "Reference" "#PWR07"
-			(at 198.12 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 190.5 114.2999 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 194.31 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 194.31 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 194.31 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4c0bf3a2-eb46-4f7a-a5a2-8c2927efb62f")
-		)
-		(instances
-			(project "Timagotchi"
-				(path "/fffb594e-bf77-45e9-a4da-34b8c4c79703"
-					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -7004,8 +7325,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Omron_B3FS")
-		(at 133.35 107.95 0)
+		(lib_id "TL3342F160QG:TL3342F160QG")
+		(at 200.66 125.73 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7014,29 +7335,44 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "91bbf63a-4678-4002-a080-7edabf61aee8")
-		(property "Reference" "SW2"
-			(at 133.35 100.33 0)
+		(uuid "8817874b-75e0-4b56-a1c5-cb34a46e3612")
+		(property "Reference" "S5"
+			(at 209.55 124.4599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "SW_Omron_B3FS"
-			(at 133.35 102.87 0)
+		(property "Value" "TL3342F160QG"
+			(at 209.55 126.9999 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_Omron_B3FS-100xP"
-			(at 133.35 102.87 0)
+		(property "Footprint" "Switch Footprints:SW_TL3342F160QG"
+			(at 200.66 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7046,8 +7382,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf"
-			(at 133.35 102.87 0)
+		(property "Description" "TACT, 50mA, 12VDC SPST-NO, Off-(On), Surface Mount"
+			(at 200.66 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7055,10 +7391,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 			)
 		)
-		(property "Description" "Omron B3FS 6x6mm single pole normally-open tactile switch"
-			(at 133.35 107.95 0)
+		(property "MF" "E-Switch"
+			(at 200.66 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7066,18 +7403,265 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 			)
 		)
-		(pin "2"
-			(uuid "9c89d131-b313-45f3-8d59-5def421ddd23")
+		(property "Package" "None"
+			(at 200.66 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 200.66 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TL3342F160QG/E-Switch/view-part/?ref=eda"
+			(at 200.66 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TL3342F160QG/E-Switch/view-part/?ref=snap"
+			(at 200.66 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "TL3342F160QG"
+			(at 200.66 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 200.66 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "E SWITCH"
+			(at 200.66 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
 		)
 		(pin "1"
-			(uuid "358d9e58-d8f2-4482-b826-8bb1c3840dc8")
+			(uuid "67731967-7b15-46a4-a858-c30597b00353")
+		)
+		(pin "4"
+			(uuid "bdaa02eb-6e2c-44a0-8481-a350c1c2c6c8")
+		)
+		(pin "3"
+			(uuid "55d1ad79-5b1e-413f-a22a-37e0b52a1c73")
+		)
+		(pin "2"
+			(uuid "286e4935-244f-4881-bc87-3a0401161c4f")
 		)
 		(instances
 			(project "Timagotchi"
 				(path "/fffb594e-bf77-45e9-a4da-34b8c4c79703"
-					(reference "SW2")
+					(reference "S5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 214.63 101.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93137abd-8074-4448-891f-9fd2a7f9e380")
+		(property "Reference" "#PWR04"
+			(at 214.63 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 214.63 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 214.63 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 214.63 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5ba42141-a3b0-411c-8469-30b75dfb368a")
+		)
+		(instances
+			(project "Timagotchi"
+				(path "/fffb594e-bf77-45e9-a4da-34b8c4c79703"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 189.23 116.84 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9c1a79f2-3233-4877-9ed8-51c40763364e")
+		(property "Reference" "#PWR03"
+			(at 189.23 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 189.23 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 189.23 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 189.23 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5c84cae7-2af1-46e2-b8b5-6b8312e8ce95")
+		)
+		(instances
+			(project "Timagotchi"
+				(path "/fffb594e-bf77-45e9-a4da-34b8c4c79703"
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -7399,7 +7983,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 179.07 109.22 0)
+		(at 210.82 115.57 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7408,9 +7992,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "bb1f826b-db9b-4bc4-bf63-c5516e622ab4")
-		(property "Reference" "#PWR06"
-			(at 179.07 115.57 0)
+		(uuid "b75ea97c-2bcf-4883-9fb0-a37c8e584b11")
+		(property "Reference" "#PWR05"
+			(at 210.82 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7421,7 +8005,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 179.07 114.3 0)
+			(at 210.82 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7431,7 +8015,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 179.07 109.22 0)
+			(at 210.82 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7442,7 +8026,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 109.22 0)
+			(at 210.82 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7453,7 +8037,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 179.07 109.22 0)
+			(at 210.82 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7464,12 +8048,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "d00530e6-5624-4864-9e1c-cbdd89ec388b")
+			(uuid "f50d2310-9ac3-4671-848d-27df73f81170")
 		)
 		(instances
 			(project "Timagotchi"
 				(path "/fffb594e-bf77-45e9-a4da-34b8c4c79703"
-					(reference "#PWR06")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -7697,6 +8281,271 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 214.63 135.89 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c77a85ab-6a55-4e35-a68d-3044c003c5e7")
+		(property "Reference" "#PWR07"
+			(at 214.63 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 214.63 140.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 214.63 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 214.63 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "90f56a70-fb3b-45ab-a3c0-04cc35b9d7cc")
+		)
+		(instances
+			(project "Timagotchi"
+				(path "/fffb594e-bf77-45e9-a4da-34b8c4c79703"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TL3342F160QG:TL3342F160QG")
+		(at 200.66 109.22 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c9505e95-eca2-47f6-8db7-51dca3246e13")
+		(property "Reference" "S4"
+			(at 209.55 107.9499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TL3342F160QG"
+			(at 209.55 110.4899 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Switch Footprints:SW_TL3342F160QG"
+			(at 200.66 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "TACT, 50mA, 12VDC SPST-NO, Off-(On), Surface Mount"
+			(at 200.66 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "E-Switch"
+			(at 200.66 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "None"
+			(at 200.66 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 200.66 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TL3342F160QG/E-Switch/view-part/?ref=eda"
+			(at 200.66 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TL3342F160QG/E-Switch/view-part/?ref=snap"
+			(at 200.66 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "TL3342F160QG"
+			(at 200.66 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 200.66 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "E SWITCH"
+			(at 200.66 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "1"
+			(uuid "9f91c56c-2317-400c-affe-dd858b6840ff")
+		)
+		(pin "4"
+			(uuid "e63d8e4d-5383-4661-96bc-a3b259680eae")
+		)
+		(pin "3"
+			(uuid "5c298611-d222-4084-978e-2c041dca0369")
+		)
+		(pin "2"
+			(uuid "439804d3-eabb-42d2-8500-df7d66450a9d")
+		)
+		(instances
+			(project "Timagotchi"
+				(path "/fffb594e-bf77-45e9-a4da-34b8c4c79703"
+					(reference "S4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 101.6 36.83 0)
 		(unit 1)
 		(body_style 1)
@@ -7768,86 +8617,6 @@
 			(project "Timagotchi"
 				(path "/fffb594e-bf77-45e9-a4da-34b8c4c79703"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Omron_B3FS")
-		(at 115.57 107.95 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cea383b4-742a-460a-a9f9-6010acf83756")
-		(property "Reference" "SW1"
-			(at 115.57 100.33 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Omron_B3FS"
-			(at 115.57 102.87 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_Omron_B3FS-100xP"
-			(at 115.57 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf"
-			(at 115.57 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Omron B3FS 6x6mm single pole normally-open tactile switch"
-			(at 115.57 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "59f3dc92-1f16-4e8e-b9e1-3ca2409e97e9")
-		)
-		(pin "1"
-			(uuid "b73c3756-c025-40f9-956d-57e1baa22c2b")
-		)
-		(instances
-			(project "Timagotchi"
-				(path "/fffb594e-bf77-45e9-a4da-34b8c4c79703"
-					(reference "SW1")
 					(unit 1)
 				)
 			)

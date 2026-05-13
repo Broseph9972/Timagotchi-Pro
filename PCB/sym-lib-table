@@ -5,4 +5,6 @@
 	(lib (name "MAX98357AETE_T") (type "KiCad") (uri "${KIPRJMOD}/Speaker Footprints/MAX98357AETE_T.kicad_sym") (options "") (descr ""))
 	(lib (name "2026-05-04_21-49-45") (type "KiCad") (uri "${KIPRJMOD}/FFC Cable/2026-05-04_21-49-45.kicad_sym") (options "") (descr ""))
 	(lib (name "CMS-201438-058S") (type "KiCad") (uri "${KIPRJMOD}/Speaker Footprints/Speaker speaker/CMS-201438-058S.kicad_sym") (options "") (descr ""))
+	(lib (name "JS1400AFQ") (type "KiCad") (uri "${KIPRJMOD}/Directional Pad/JS1400AFQ.kicad_sym") (options "") (descr ""))
+	(lib (name "TL3342F160QG") (type "KiCad") (uri "${KIPRJMOD}/Switch Footprints/TL3342F160QG.kicad_sym") (options "") (descr ""))
 )
