@@ -510,7 +510,7 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
-      "vrml": ""
+      "vrml": "Timagotchi.wrl"
     },
     "page_layout_descr_file": ""
   },
@@ -632,7 +632,7 @@
         "uuid": "fffb594e-bf77-45e9-a4da-34b8c4c79703"
       }
     ],
-    "used_designators": "C1-2,#PWR8,#PWR15",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
