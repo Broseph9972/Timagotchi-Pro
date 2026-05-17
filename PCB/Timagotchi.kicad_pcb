@@ -11119,7 +11119,7 @@
 			(chamfer top_left bottom_left)
 			(net "unconnected-(U1-GPIO42_PDM_CLK_TX1-Pad19)")
 			(pinfunction "GPIO42_PDM_CLK_TX1_19")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(thermal_bridge_angle 45)
 			(uuid "9dddf286-769e-4c29-ba72-e2fb5f052dc0")
 		)
