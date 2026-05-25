@@ -3,7 +3,7 @@ A remake of my magnum opus project, the Timagotchi. for info on that checkout ht
 [^1]:(it will be much cheaper if i ever make multiple, but shipping and using premade devboards and screens make it much more annoying)
 if my miraculous amount of motivation continues to exist for this project, i will probably switch to cheaper parts.
 
-<img width="840" height="1190" alt="image" src="https://github.com/user-attachments/assets/829fadf8-7e93-494c-bea8-35d40d8d723e" />
+<img width="840" height="1190" alt="image" src="https://github.com/user-attachments/assets/a4077ac9-ab7f-4702-80fa-3bf9dee72eea" />
 <img width="482" height="272" alt="image" src="https://github.com/user-attachments/assets/153debba-01aa-4388-bbe0-42bda719f0e7" />
 <img width="274" height="240" alt="image" src="https://github.com/user-attachments/assets/3961a243-1621-447a-816b-9f9f875966b7" />
 
