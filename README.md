@@ -16,11 +16,16 @@ with a progress bar and other features shown to help people with time blindness 
 
 I made it becuase i personally have issues telling how much time is left in class, and was really really bored. turned out to be a really really good idea. ive sold these at school to other kids with adhd and actually made profit??? i made the v2 to reduce price and DRASTICALLY improve quality
 
+Pic of the case brad made (i suck at cad vro)
+<img width="506" height="301" alt="image" src="https://github.com/user-attachments/assets/18836888-4d44-4945-a4b9-f35678b7eae2" />
+
+
 Some upgrades over the earlier version include
 
 - Price reduction
 - Speaker
 - Nicer buttons
+- kinda better case
 - No reliance on raspberry pi
 - ==A BATTERY==
 - Touchscreen
