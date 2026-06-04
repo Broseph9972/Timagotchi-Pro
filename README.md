@@ -1,3 +1,4 @@
+[Zine.pdf](https://github.com/user-attachments/files/28575734/597818620-a4077ac9-ab7f-4702-80fa-3bf9dee72eea.pdf)
 ![Hackatime Badge](https://hackatime.hackclub.com/api/v1/badge/U098EVBAAEN/Broseph9972/Timagotchi-Pro)
 
 # Timagotchi-Pro
