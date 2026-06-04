@@ -9,6 +9,9 @@ if my miraculous amount of motivation continues, i will improve this project. i 
 <img width="840" height="1190" alt="image" src="https://github.com/user-attachments/assets/a4077ac9-ab7f-4702-80fa-3bf9dee72eea" />
 <img width="482" height="272" alt="image" src="https://github.com/user-attachments/assets/153debba-01aa-4388-bbe0-42bda719f0e7" />
 <img width="274" height="240" alt="image" src="https://github.com/user-attachments/assets/3961a243-1621-447a-816b-9f9f875966b7" />
+<img width="506" height="301" alt="image" src="https://github.com/user-attachments/assets/18836888-4d44-4945-a4b9-f35678b7eae2" />
+^^^Pic of the case brad made (i suck at cad vro)
+
 
 Anyway, The Timagotchi *(time-a-got-chee)* is a low-cost device that helps with adhd time blindness[^2]
 [^2]:You're bad at telling how much time has passed
@@ -16,8 +19,7 @@ with a progress bar and other features shown to help people with time blindness 
 
 I made it becuase i personally have issues telling how much time is left in class, and was really really bored. turned out to be a really really good idea. ive sold these at school to other kids with adhd and actually made profit??? i made the v2 to reduce price and DRASTICALLY improve quality
 
-Pic of the case brad made (i suck at cad vro)
-<img width="506" height="301" alt="image" src="https://github.com/user-attachments/assets/18836888-4d44-4945-a4b9-f35678b7eae2" />
+
 
 
 Some upgrades over the earlier version include
