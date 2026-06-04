@@ -2,7 +2,7 @@
 ![Hackatime Badge](https://hackatime.hackclub.com/api/v1/badge/U098EVBAAEN/Broseph9972/Timagotchi-Pro)
 
 # Timagotchi-Pro
-A remake of my magnum opus project, the Timagotchi. for info on that checkout https://timagotchi.dev. this is meant to make it accessible for more than just "School schedules" and moving the price from around $50 without crazy deals to ~~$20.~~ ~~$40~~ ~32[^1] 
+A remake of my magnum opus project, the Timagotchi. for info on that checkout https://timagotchi.dev. this is meant to make it accessible for more than just "School schedules" and moving the price from around $50 without crazy deals to ~~$20.~~ ~~$40~~ ~32[^1] I wanted to make it cooler with a joystick, but i kept the budget as small as possible. kinda wish i didnt tbh.
 [^1]:(it will be much cheaper if i ever make multiple, but shipping and using premade devboards and screens make it much more annoying)
 if my miraculous amount of motivation continues, i will improve this project. i am losing said motivation.
 
