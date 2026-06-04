@@ -4,7 +4,7 @@
 # Timagotchi-Pro
 A remake of my magnum opus project, the Timagotchi. for info on that checkout https://timagotchi.dev. this is meant to make it accessible for more than just "School schedules" and moving the price from around $50 without crazy deals to ~~$20.~~ ~~$40~~ ~32[^1] 
 [^1]:(it will be much cheaper if i ever make multiple, but shipping and using premade devboards and screens make it much more annoying)
-if my miraculous amount of motivation continues to exist for this project, i will probably switch to cheaper parts.
+if my miraculous amount of motivation continues, i will improve this project. i am losing said motivation.
 
 <img width="840" height="1190" alt="image" src="https://github.com/user-attachments/assets/a4077ac9-ab7f-4702-80fa-3bf9dee72eea" />
 <img width="482" height="272" alt="image" src="https://github.com/user-attachments/assets/153debba-01aa-4388-bbe0-42bda719f0e7" />
