@@ -2,7 +2,7 @@
 ![Hackatime Badge](https://hackatime.hackclub.com/api/v1/badge/U098EVBAAEN/Broseph9972/Timagotchi-Pro)
 
 # Timagotchi-Pro
-A remake of my magnum opus project, the Timagotchi. for info on that checkout https://timagotchi.dev. this is meant to make it accessible for more than just "School schedules" and moving the price from around $50 without crazy deals to ~~$20.~~ ~~$40~~ ~32[^1] I wanted to make it cooler with a joystick, but i kept the budget as small as possible. kinda wish i didnt tbh.
+The Timagotchi-Pro is a remake of my magnum opus project, the Timagotchi. for info on that checkout [The original Site](https://timagotchi.dev). this is meant to make it accessible for more than just "School schedules" and moving the price from around $50 without crazy deals to ~~$20.~~ ~~$40~~ ~32[^1] I wanted to make it cooler with a joystick, but i kept the budget as small as possible. kinda wish i didnt tbh.
 [^1]:(it will be much cheaper if i ever make multiple, but shipping and using premade devboards and screens make it much more annoying)
 if my miraculous amount of motivation continues, i will improve this project. i am losing said motivation.
 
@@ -16,6 +16,8 @@ if my miraculous amount of motivation continues, i will improve this project. i 
 Anyway, The Timagotchi *(time-a-got-chee)* is a low-cost device that helps with adhd time blindness[^2]
 [^2]:You're bad at telling how much time has passed
 with a progress bar and other features shown to help people with time blindness at a quick glance with many other useful features.
+
+
 
 I made it becuase i personally have issues telling how much time is left in class, and was really really bored. turned out to be a really really good idea. ive sold these at school to other kids with adhd and actually made profit??? i made the v2 to reduce price and DRASTICALLY improve quality
 
@@ -44,6 +46,7 @@ Some upgrades over the earlier version include
 | 1        | Screen                 | $11.99 | https://www.waveshare.com/product/displays/lcd-oled/lcd-oled-3/1.47inch-touch-lcd.htm                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 |          | Total                  | $32.03 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 
-as of writing this bom i do not have the actual parts, so i cant make any tutorial on assembly, but here are some assembly pics for examples of where parts go. also no cad yet because i need to figure out the screen placement. ill do that as soon as i get parts. just solder the parts where they go on the pcb, and for the screen fold the FFC cable in like a z shape.
+To use it simply use the 5 buttons like a d-pad and use the middle button to select. the ui is pretty intuitive.
+To build it simply Solder the buttons, capacitors, screen connector, xiao, speaker, and JST for battery on, then use the FPC cable from the screen, bend it in a "Z" so it fits in the connectors the right way and also plug in the battery it should automatically charge via usb-c. once the pcb is done, just put it in the case. thats it.
 
 This is a project for Hack Club Fallout.
