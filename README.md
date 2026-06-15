@@ -50,7 +50,7 @@ Some upgrades over the earlier version include
 To use it simply use the 5 buttons like a d-pad and use the middle button to select. the ui is pretty intuitive.
 
 
-#Assembly
+# Assembly
 
 To assemble it it simply Solder the buttons, capacitors, screen connector, xiao, speaker, and JST for battery on, then use the FPC cable from the screen, bend it in a "Z" so it fits in the connectors the right way and also plug in the battery it should automatically charge via usb-c. once the pcb is done, just put it in the case. thats it. I'm not smart enough to make a fusion animation, sorry.
 
