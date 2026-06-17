@@ -6,7 +6,8 @@ The Timagotchi-Pro is a remake of my magnum opus project, the Timagotchi. for in
 [^1]:(it will be much cheaper if i ever make multiple, but shipping and using premade devboards and screens make it much more annoying)
 if my miraculous amount of motivation continues, i will improve this project. i am losing said motivation.
 
-<img width="840" height="1190" alt="image" src="https://github.com/user-attachments/assets/a4077ac9-ab7f-4702-80fa-3bf9dee72eea" />
+<img width="420" height="595" alt="Poster" src="https://github.com/user-attachments/assets/bef0dca5-cef4-4381-bf16-e0729be0640f" />
+
 <img width="482" height="272" alt="image" src="https://github.com/user-attachments/assets/153debba-01aa-4388-bbe0-42bda719f0e7" />
 <img width="274" height="240" alt="image" src="https://github.com/user-attachments/assets/3961a243-1621-447a-816b-9f9f875966b7" />
 <img width="1297" height="980" alt="image" src="https://github.com/user-attachments/assets/e08428c2-2b61-4a20-b5b5-aaa15592dd7c" />
