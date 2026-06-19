@@ -3,25 +3,24 @@
 
 # Timagotchi-Pro
 The Timagotchi-Pro is a remake of my magnum opus project, the Timagotchi. for info on that checkout [The original Site](https://timagotchi.dev). this is meant to make it accessible for more than just "School schedules" and moving the price from around $50 without crazy deals to ~~$20.~~ ~~$40~~ ~32[^1] I wanted to make it cooler with a joystick, but i kept the budget as small as possible. kinda wish i didnt tbh.
-[^1]:(it will be much cheaper if i ever make multiple, but shipping and using premade devboards and screens make it much more annoying)
-if my miraculous amount of motivation continues, i will improve this project. i am losing said motivation.
-
+[^1]:(it will be much cheaper if i ever make multiple, but shipping and using premade devboards and screens make it much more annoying The Timagotchi *(time-a-got-chee)* is a low-cost device that helps with adhd time blindness[^2]
+[^2]:You're bad at telling how much time has passed
+with a progress bar and other features shown to help people with time blindness at a quick glance with many other useful features.
+---
 <img width="420" height="595" alt="Poster" src="https://github.com/user-attachments/assets/bef0dca5-cef4-4381-bf16-e0729be0640f" />
 
 <img width="482" height="272" alt="image" src="https://github.com/user-attachments/assets/153debba-01aa-4388-bbe0-42bda719f0e7" />
 <img width="274" height="240" alt="image" src="https://github.com/user-attachments/assets/3961a243-1621-447a-816b-9f9f875966b7" />
 
+# Assembly
 
-Anyway, The Timagotchi *(time-a-got-chee)* is a low-cost device that helps with adhd time blindness[^2]
-[^2]:You're bad at telling how much time has passed
-with a progress bar and other features shown to help people with time blindness at a quick glance with many other useful features.
+To assemble it it simply Solder the buttons, capacitors, screen connector, xiao, speaker, and JST for battery on, then use the FPC cable from the screen, bend it in a "Z" so it fits in the connectors the right way and also plug in the battery it should automatically charge via usb-c. once the pcb is done, to assemble the cad first plug in the battery, then insert said battery into battery container. then insert the pcb, followed by the buttons on top of the casing.
 
+#Usage
+To use it, simply interact with the menu using the buttons like a d-pad. It's very intuitive, im sure you'll understand.
 
-
+# Why?
 I made it becuase i personally have issues telling how much time is left in class, and was really really bored. turned out to be a really really good idea. ive sold these at school to other kids with adhd and actually made profit??? i made the v2 to reduce price and DRASTICALLY improve quality
-
-
-
 
 Some upgrades over the earlier version include
 
@@ -30,7 +29,7 @@ Some upgrades over the earlier version include
 - Nicer buttons
 - kinda better case
 - No reliance on raspberry pi
-- == A BATTERY ==
+- **A Battery**
 - Touchscreen
 
 | Quantity | Name                   | Price  | Link                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
@@ -44,12 +43,5 @@ Some upgrades over the earlier version include
 | 1        | Battery                | $0.99  | https://www.aliexpress.us/item/3256802733222186.html?spm=a2g0o.productlist.main.2.573662c3rEHzeH&algo_pvid=776a5850-4451-4f10-b9ac-21b38e442e2a&algo_exp_id=776a5850-4451-4f10-b9ac-21b38e442e2a-1&pdp_ext_f=%7B%22order%22%3A%221283%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21USD%2112.94%210.99%21%21%2112.94%210.99%21%402101d49617782838741088519ed7e7%2112000028368881594%21sea%21US%210%21ABX%211%210%21n_tag%3A-29910%3Bd%3A88f1f0e6%3Bm03_new_user%3A-29895%3BpisId%3A5000000203520967&curPageLogUid=4m6JpZeIsJ89&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005002919536938%7C_p_origin_prod%3A |
 | 1        | Screen                 | $11.99 | https://www.waveshare.com/product/displays/lcd-oled/lcd-oled-3/1.47inch-touch-lcd.htm                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 |          | Total                  | $32.03 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-
-To use it simply use the 5 buttons like a d-pad and use the middle button to select. the ui is pretty intuitive.
-
-
-# Assembly
-
-To assemble it it simply Solder the buttons, capacitors, screen connector, xiao, speaker, and JST for battery on, then use the FPC cable from the screen, bend it in a "Z" so it fits in the connectors the right way and also plug in the battery it should automatically charge via usb-c. once the pcb is done, to assemble the cad first plug in the battery, then insert said battery into battery container. then insert the pcb, followed by the buttons on top of the casing.
 
 This is a project for Hack Club Fallout.
