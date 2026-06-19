@@ -16,7 +16,7 @@ with a progress bar and other features shown to help people with time blindness 
 
 To assemble it it simply Solder the buttons, capacitors, screen connector, xiao, speaker, and JST for battery on, then use the FPC cable from the screen, bend it in a "Z" so it fits in the connectors the right way and also plug in the battery it should automatically charge via usb-c. once the pcb is done, to assemble the cad first plug in the battery, then insert said battery into battery container. then insert the pcb, followed by the buttons on top of the casing.
 
-#Usage
+# Usage
 To use it, simply interact with the menu using the buttons like a d-pad. It's very intuitive, im sure you'll understand.
 
 # Why?
