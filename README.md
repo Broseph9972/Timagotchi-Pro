@@ -30,7 +30,7 @@ Some upgrades over the earlier version include
 - Nicer buttons
 - kinda better case
 - No reliance on raspberry pi
-- ==A BATTERY==
+- == A BATTERY ==
 - Touchscreen
 
 | Quantity | Name                   | Price  | Link                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
