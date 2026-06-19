@@ -10,9 +10,6 @@ if my miraculous amount of motivation continues, i will improve this project. i 
 
 <img width="482" height="272" alt="image" src="https://github.com/user-attachments/assets/153debba-01aa-4388-bbe0-42bda719f0e7" />
 <img width="274" height="240" alt="image" src="https://github.com/user-attachments/assets/3961a243-1621-447a-816b-9f9f875966b7" />
-<img width="1297" height="980" alt="image" src="https://github.com/user-attachments/assets/e08428c2-2b61-4a20-b5b5-aaa15592dd7c" />
-
-^^^Pic of the case brad made (i suck at cad vro)
 
 
 Anyway, The Timagotchi *(time-a-got-chee)* is a low-cost device that helps with adhd time blindness[^2]
