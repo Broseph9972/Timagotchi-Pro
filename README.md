@@ -20,7 +20,7 @@ To use it, simply interact with the menu using the buttons like a d-pad. It's ve
 
 # Why?
 I made it becuase i personally have issues telling how much time is left in class, and was really really bored. turned out to be a really really good idea. ive sold these at school to other kids with adhd and actually made profit??? i made the v2 to reduce price and DRASTICALLY improve quality
-
+---
 Some upgrades over the earlier version include
 
 - Price reduction
