@@ -7,7 +7,7 @@ The Timagotchi-Pro is a remake of my magnum opus project, the Timagotchi. for in
 with a progress bar and other features shown to help people with time blindness at a quick glance with many other useful features.
 ---
 <p align="center">
-<img width="420" height="595" alt="A5 - 1" src="https://github.com/user-attachments/assets/a14181d3-09e6-4f7f-8a79-f3115c640670" />
+<img width="840" height="1190" alt="A5 - 1" src="https://github.com/user-attachments/assets/a14181d3-09e6-4f7f-8a79-f3115c640670" />
 </p>
 
 <p align="center">
