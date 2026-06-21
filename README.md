@@ -22,7 +22,7 @@ with a progress bar and other features shown to help people with time blindness 
 
 # Assembly
 
-To assemble it it simply Solder the buttons, capacitors, screen connector, xiao, speaker, and JST for battery on, then use the FPC cable from the screen, bend it in a "Z" so it fits in the connectors the right way and also plug in the battery it should automatically charge via usb-c. once the pcb is done, There are 2 parts to the cad, a top and bottom half. Insert the pcb, connect the screen afterputting it in the indent on top. put them together with glue, or don't they should still stay together.
+To assemble it it simply Solder the buttons, capacitors, screen connector, xiao, speaker, and JST for battery on, then use the FPC cable from the screen, bend it in a "Z" so it fits in the connectors the right way and also plug in the battery it should automatically charge via usb-c. once the pcb is done, There are 2 parts to the cad, a top and bottom half. Insert the pcb, connect the screen afterputting it in the indent on top. put them together with glue, or don't they should still stay together. you may have to seperate the 2 parts in your slicer, but it should work be easily printable.
 
 # Usage
 To use it, simply interact with the menu using the buttons like a d-pad. It's very intuitive, im sure you'll understand.
